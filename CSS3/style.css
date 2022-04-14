@@ -1,0 +1,112 @@
+body{
+    background-color: #27282D;
+    min-width: 400px;
+    max-height: auto;
+    }
+
+/* --------------- Estilização do painel preto. */
+
+    .painellogin{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 10px solid #FF3B1E;
+    border-top: 10px solid #FF3B1E;
+    border-radius: 15px;
+    background-color: #2E2E2E;
+    width: 380px;
+    height: 400px;
+    }
+
+/* --------------- Estilização do box de entrar. */
+
+    form input[type=submit]{
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 2px;
+    font-size: 15px;
+    width: 336px;
+    height: 35;
+    border-radius: 8px;
+    border-color: #FF3B1E;
+    cursor: pointer;
+    transition: 3mm;
+    background: #FF3B1E;
+    opacity: 1;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    }
+
+/* --------------- Estilização do caixa de usuário e senha. */
+
+    form input[type=text],
+    form input[type=password]{
+    padding-left: 10px;
+    color: white;
+    display: block;
+    margin: 10px auto;
+    max-width: 500px;
+    width: 321px;
+    height: 35px;
+    border-radius: 7px;
+    border-width: 2px;
+    font-size: 10px;
+    border-color: #FF3B1E;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1; 
+    }
+
+/* --------------- Ajustar os boxs dentro do painel preto. */
+
+    form{
+    text-align: center;
+    margin-top: 115px;
+    }
+
+
+/* --------------- Para remover as bordas dos boxs quando clico para digitar usuário e senha. */
+
+    form input[type=text]:focus{
+    outline: 0;
+    }
+
+    form input[type=password]:focus{
+    outline: 0;
+    }
+
+/* --------------- Mudar as cores dos textos dentro dos boxs de usuário e senha. */
+
+    input::placeholder {
+    color: white;
+    padding-left: 5px;
+    }
+
+/* --------------- Estilização da frase: Esqueceu sua senha? Redefinir. */
+
+    .link{
+    margin-top: 45px;
+    font-family: roboto;
+    font-size: 10px;
+    cursor: pointer;
+    color: white;
+    }
+
+/* --------------- Estilização da palavra: Redefinir. */
+
+    a:link{
+    color: #1E90FF;
+    }
+
+    a:visited{
+        color: #1E90FF;
+    }
+
+    a:hover{
+        color: #00FF7F;
+    } 
